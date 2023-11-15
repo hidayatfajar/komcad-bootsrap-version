@@ -1,0 +1,23 @@
+.custom-navbar {
+    background-image: url('/assets/img/background/header-publik.png');
+    background-size: cover; /* Adjust this based on your design preference */
+    background-repeat: no-repeat;
+    height: 70px; /* Adjust the height as needed */
+    /* Add any other styling you want for the navbar */
+}
+
+.ellipsis-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit to 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Warna teks default */
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+    border-bottom: 3px solid white;
+}
