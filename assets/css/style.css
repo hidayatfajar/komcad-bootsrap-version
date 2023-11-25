@@ -31,6 +31,11 @@
 }
 
 
+
+.card-width {
+    width: 14.5rem;
+}
+
 @media screen and (max-width: 450px) {
     .text-promosi {
         font-size: 1rem;
@@ -39,6 +44,16 @@
     .btn-daftar {
         width: 100%;
         margin-top: 1rem;
+    }
+
+    .card-width {
+        width: 100%;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 12rem;
+        object-fit: cover;
     }
     
 }
