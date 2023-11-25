@@ -30,26 +30,33 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md custom-navbar position-sticky sticky-top">
+    <nav class="navbar navbar-expand-md custom-navbar navbar-light bg-light position-sticky sticky-top">
         <div class="container-fluid d-flex align-items-center justify-content-between">
             <div>
                 <img src="/assets/img/background/nav-logo-new.png" style="height: 40px;" alt="">
             </div>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            </div>
-            <div class="d-flex">
-                <div class="navbar-nav me-3">
-                    <a class="nav-link active" href="#beranda">Beranda</a>
-                    <a class="nav-link" href="#informasi">Informasi</a>
-                    <a class="nav-link" href="#faq">FAQ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <div class="navbar-nav">
+                    <a class="nav-link active " href="#beranda">Beranda</a>
+                    <a class="nav-link " href="#informasi">Informasi</a>
+                    <a class="nav-link me-4" href="#faq">FAQ</a>
                 </div>
-                <button type="button" class="btn btn-warning rounded text-light me-2">
-                    Masuk</button>
-                <button type="button" class="btn btn-dark rounded text-light">
-                    Daftar</button>
+                <div class="d-flex">
+                    <button type="button" class="btn btn-warning rounded text-light me-2">
+                        Masuk
+                    </button>
+                    <button type="button" class="btn btn-dark rounded text-light">
+                        Daftar
+                    </button>
+                </div>
             </div>
         </div>
     </nav>
+    
     <div class="container-fluid mt-3">
         <section id="beranda">
             <div id="carouselExample" class="carousel slide mb-3">
@@ -75,12 +82,12 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            <div class="d-flex align-items-center justify-content-center p-4 mb-3">
-                <div class="h5 text-start me-5">
-                    Ayo Mengabdi Kepada Negara Dengan Mendaftarkan <br>
+            <div class="d-flex flex-wrap justify-content-center align-items-center p-4 mb-3">
+                <div class="d-grid gap-2 col-8 h5 text-center text-promosi">
+                    Ayo Mengabdi Kepada Negara Dengan Mendaftarkan
                     Sebagai Anggota Komponen Cadangan Pertahanan Negara
                 </div>
-                <div class="d-grid gap-2 col-4 text-end ms-4">
+                <div class="d-grid gap-2 col-4 mx-auto btn-daftar">
                     <button type="button" block class="btn btn-danger rounded text-light">Daftar Menjadi Komponen
                         Cadangan</button>
                 </div>
@@ -119,10 +126,10 @@
 
         <section id="informasi">
             <div class="h5 text-center m-5">
-                Pengumuman
+                Informasi
             </div>
-            <div class="mt-3 d-flex flex-row">
-                <div class="card mx-2" style="width: 15rem;">
+            <div class="mt-3 d-flex flex-wrap justify-content-center align-items-center">
+                <div class="card mx-2 mt-4" style="width: 14.5rem;">
                     <img class="card-img-top" src="/assets/img/background/no-thumbnail.jpg" alt="img" height="150"
                         contain>
                     <div class="p-2">
@@ -136,7 +143,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mx-2" style="width: 15rem;">
+                <div class="card mx-2 mt-4" style="width: 14.5rem;">
                     <img class="card-img-top" src="/assets/img/background/no-thumbnail.jpg" alt="img" height="150"
                         contain>
                     <div class="p-2">
@@ -150,7 +157,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mx-2" style="width: 15rem;">
+                <div class="card mx-2 mt-4" style="width: 14.5rem;">
                     <img class="card-img-top" src="/assets/img/background/no-thumbnail.jpg" alt="img" height="150"
                         contain>
                     <div class="p-2">
@@ -164,7 +171,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mx-2" style="width: 15rem;">
+                <div class="card mx-2 mt-4" style="width: 14.5rem;">
                     <img class="card-img-top" src="/assets/img/background/no-thumbnail.jpg" alt="img" height="150"
                         contain>
                     <div class="p-2">
@@ -178,7 +185,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mx-2" style="width: 15rem;">
+                <div class="card mx-2 mt-4" style="width: 14.5rem;">
                     <img class="card-img-top" src="/assets/img/background/no-thumbnail.jpg" alt="img" height="150"
                         contain>
                     <div class="p-2">
@@ -192,93 +199,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mx-2" style="width: 15rem;">
-                    <img class="card-img-top" src="/assets/img/background/no-thumbnail.jpg" alt="img" height="150"
-                        contain>
-                    <div class="p-2">
-                        <div class="text-danger h6">
-                            Pendaftaran Komcad
-                        </div>
-                        <div class=" mt-n2 ellipsis-text">
-                            <small>
-                                Mengenai Pendaftaran Komponen Cadangan Akan Dibuka Pada Tanggal
-                            </small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-3 d-flex flex-row">
-                <div class="card mx-2" style="width: 15rem;">
-                    <img class="card-img-top" src="/assets/img/background/no-thumbnail.jpg" alt="img" height="150"
-                        contain>
-                    <div class="p-2">
-                        <div class="text-danger h6">
-                            Pendaftaran Komcad
-                        </div>
-                        <div class=" mt-n2 ellipsis-text">
-                            <small>
-                                Mengenai Pendaftaran Komponen Cadangan Akan Dibuka Pada Tanggal
-                            </small>
-                        </div>
-                    </div>
-                </div>
-                <div class="card mx-2" style="width: 15rem;">
-                    <img class="card-img-top" src="/assets/img/background/no-thumbnail.jpg" alt="img" height="150"
-                        contain>
-                    <div class="p-2">
-                        <div class="text-danger h6">
-                            Pendaftaran Komcad
-                        </div>
-                        <div class=" mt-n2 ellipsis-text">
-                            <small>
-                                Mengenai Pendaftaran Komponen Cadangan Akan Dibuka Pada Tanggal
-                            </small>
-                        </div>
-                    </div>
-                </div>
-                <div class="card mx-2" style="width: 15rem;">
-                    <img class="card-img-top" src="/assets/img/background/no-thumbnail.jpg" alt="img" height="150"
-                        contain>
-                    <div class="p-2">
-                        <div class="text-danger h6">
-                            Pendaftaran Komcad
-                        </div>
-                        <div class=" mt-n2 ellipsis-text">
-                            <small>
-                                Mengenai Pendaftaran Komponen Cadangan Akan Dibuka Pada Tanggal
-                            </small>
-                        </div>
-                    </div>
-                </div>
-                <div class="card mx-2" style="width: 15rem;">
-                    <img class="card-img-top" src="/assets/img/background/no-thumbnail.jpg" alt="img" height="150"
-                        contain>
-                    <div class="p-2">
-                        <div class="text-danger h6">
-                            Pendaftaran Komcad
-                        </div>
-                        <div class=" mt-n2 ellipsis-text">
-                            <small>
-                                Mengenai Pendaftaran Komponen Cadangan Akan Dibuka Pada Tanggal
-                            </small>
-                        </div>
-                    </div>
-                </div>
-                <div class="card mx-2" style="width: 15rem;">
-                    <img class="card-img-top" src="/assets/img/background/no-thumbnail.jpg" alt="img" height="150"
-                        contain>
-                    <div class="p-2">
-                        <div class="text-danger h6">
-                            Pendaftaran Komcad
-                        </div>
-                        <div class=" mt-n2 ellipsis-text">
-                            <small>
-                                Mengenai Pendaftaran Komponen Cadangan Akan Dibuka Pada Tanggal
-                            </small>
-                        </div>
-                    </div>
-                </div>
-                <div class="card mx-2" style="width: 15rem;">
+                <div class="card mx-2 mt-4" style="width: 14.5rem;">
                     <img class="card-img-top" src="/assets/img/background/no-thumbnail.jpg" alt="img" height="150"
                         contain>
                     <div class="p-2">
@@ -397,17 +318,24 @@
     </div>
     <div class="card-footer bg-dark text-light p-5 mt-5">
         <div class="row">
-            <div class="col-10">
-                <div class="h5">
-                    Direktorat Sumber Daya Pertahanan
+            <div class="col-md-8 mb-4">
+                <!-- On medium and larger screens, take 8 out of 12 columns -->
+                <div Ddiv class="h5">
+                   Direktorat Sumber Daya Pertahanan
                 </div>
                 <div>
-                    Direktorat Jenderal Potensi Pertahanan - Kementrian Pertahanan Republik Indonesia <br>
-                    Jl. Tanah Abang Timur No.8 RT 03/01, Gambir, Kecamatan Gambir, Kota Jakarta Pusat - DKI Jakarta
-                    10110
+                    Kementrian Pertahanan Republik Indonesia
+                    <div class="mb-4 mt-3">
+                        Jl. Tanah Abang Timur No.8 RT 03/01, Gambir, Kecamatan Gambir, Kota Jakarta Pusat - DKI Jakarta
+                        10110
+                    </div>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-md-4">
+                <!-- On medium and larger screens, take 4 out of 12 columns -->
+                <div Ddiv class="h5">
+                    Kontak
+                 </div>
                 <div>
                     datin.pothan@kemhan.go.id
                 </div>
@@ -427,6 +355,7 @@
                 </div>
             </div>
         </div>
+        
     </div>
 
 
