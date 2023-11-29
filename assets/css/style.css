@@ -1,9 +1,3 @@
-.custom-navbar {
-    background-image: url('/assets/img/background/header-publik.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 70px;
-}
 
 .ellipsis-text {
     display: -webkit-box;
@@ -19,6 +13,7 @@
 .navbar-nav .nav-link.active {
     color: white;
     border-bottom: 3px solid white;
+    
 }
 
 .text-promosi {
@@ -37,8 +32,11 @@
 }
 
 @media screen and (max-width: 450px) {
+    .nav-link, .nav-link.active {
+        width: 20%;
+    }
     .text-promosi {
-        font-size: 1rem;
+        font-size: 0.8rem;
         width: 100%;
     }
     .btn-daftar {
@@ -58,7 +56,19 @@
     
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (max-width: 600px ) {
+    .text-promosi {
+        font-size: 1.1rem;
+        width: 100%;
+    }
+    .btn-daftar {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    
+}
+
+@media screen and (min-width: 600px ) {
     .text-promosi {
         font-size: 1.3rem;
         padding: 0 1rem;
