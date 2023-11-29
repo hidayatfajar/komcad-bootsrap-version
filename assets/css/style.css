@@ -63,6 +63,9 @@
 }
 
 @media screen and (max-width: 600px ) {
+    .nav-link, .nav-link.active {
+        width: 20%;
+    }
     .text-promosi {
         font-size: 1.1rem;
         width: 100%;
