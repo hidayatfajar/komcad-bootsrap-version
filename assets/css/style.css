@@ -1,3 +1,9 @@
+.custom-navbar {
+    background-image: url('/assets/img/background/header-publik.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ed1c24;
+}
 
 .ellipsis-text {
     display: -webkit-box;
